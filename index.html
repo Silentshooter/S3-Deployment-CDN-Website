@@ -1,109 +1,461 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Modern Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TechSite — colorful modern websites with beautiful UI and smooth experiences.">
 
-<link rel="stylesheet" href="style.css">
+  <title>TechSite — Build Something Brilliant</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<header class="header">
+  <nav class="nav">
 
-<nav>
-<div class="logo">TechSite</div>
+    <a class="logo" href="#home">
+      <span>✦</span> TechSite
+    </a>
 
-<ul class="nav-links">
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
 
-<div class="menu">&#9776;</div>
+    <a class="nav-cta" href="#contact">
+      Let's Talk <span>↗</span>
+    </a>
 
-</nav>
+    <button class="menu" aria-label="Open menu" aria-expanded="false">
+      ☰
+    </button>
 
+  </nav>
 </header>
+
+
+<main>
+
+<!-- HERO SECTION -->
 
 <section class="hero" id="home">
 
-<div class="hero-text">
+  <div class="hero-glow glow-one"></div>
+  <div class="hero-glow glow-two"></div>
 
-<h1>Build Your Dream Website </h1>
+  <div class="hero-content reveal">
 
-<p>Simple, Responsive and Beautiful websites using HTML, CSS and JavaScript. </p>
+    <div class="eyebrow">
+      <span class="pulse"></span>
+      Creative digital studio
+    </div>
 
-<button onclick="scrollToSection()">Get Started</button>
+    <h1>
+      Build something<br>
+      <span class="gradient-text">brilliant.</span>
+    </h1>
 
-</div>
+    <p>
+      We turn bold ideas into colorful, fast and memorable
+      digital experiences that people love to use.
+    </p>
+
+    <div class="hero-actions">
+
+      <button class="primary-btn" onclick="scrollToSection()">
+        Explore Our Work
+        <span>→</span>
+      </button>
+
+      <a class="text-btn" href="#services">
+        See what we do <span>↓</span>
+      </a>
+
+    </div>
+
+    <div class="mini-stats">
+
+      <div>
+        <strong>50+</strong>
+        <span>Projects</span>
+      </div>
+
+      <div>
+        <strong>24/7</strong>
+        <span>Creative energy</span>
+      </div>
+
+      <div>
+        <strong>100%</strong>
+        <span>Passion</span>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="hero-art reveal">
+
+    <div class="orb orb-main">
+
+      <div class="orb-inner">
+        <span>✦</span>
+        <small>CREATE</small>
+      </div>
+
+    </div>
+
+    <div class="floating-card card-a">
+      ⚡
+      <span>Fast & smooth</span>
+    </div>
+
+    <div class="floating-card card-b">
+      🎨
+      <span>Made to stand out</span>
+    </div>
+
+    <div class="floating-card card-c">
+      🚀
+      <span>Ready to launch</span>
+    </div>
+
+  </div>
+
+
+  <div class="scroll-hint">
+    SCROLL TO EXPLORE
+    <span>↓</span>
+  </div>
 
 </section>
 
-<section id="about" class="section">
 
-<h2>About Us</h2>
+<!-- ABOUT -->
 
-<p>
-We create responsive websites with modern UI design,
-smooth animations and optimized performance.
-</p>
+<section id="about" class="section about">
+
+  <div class="section-label">
+    01 / WHO WE ARE
+  </div>
+
+  <div class="about-grid">
+
+    <div>
+
+      <h2>
+        Good design should<br>
+        <span class="gradient-text">feel alive.</span>
+      </h2>
+
+    </div>
+
+    <div>
+
+      <p class="lead">
+        TechSite is a creative web studio focused on
+        turning simple ideas into polished digital experiences.
+      </p>
+
+      <p>
+        From landing pages to complete business websites,
+        we combine clean development, thoughtful UX and
+        vibrant visual design to create websites that look
+        great on every screen.
+      </p>
+
+      <a class="arrow-link" href="#contact">
+        Start a conversation
+        <span>↗</span>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section id="services" class="section services">
+
+  <div class="section-heading">
+
+    <div>
+
+      <div class="section-label">
+        02 / WHAT WE DO
+      </div>
+
+      <h2>
+        Ideas into
+        <span class="gradient-text">impact.</span>
+      </h2>
+
+    </div>
+
+    <p>
+      Everything you need to make your next
+      digital project memorable.
+    </p>
+
+  </div>
+
+
+  <div class="cards">
+
+    <article class="service-card pink reveal">
+
+      <div class="icon">
+        ✦
+      </div>
+
+      <div>
+
+        <span class="number">
+          01
+        </span>
+
+        <h3>
+          Web Design
+        </h3>
+
+        <p>
+          Modern layouts, strong visual systems and
+          interfaces built around your audience.
+        </p>
+
+      </div>
+
+      <span class="card-arrow">
+        ↗
+      </span>
+
+    </article>
+
+
+    <article class="service-card orange reveal">
+
+      <div class="icon">
+        ⌁
+      </div>
+
+      <div>
+
+        <span class="number">
+          02
+        </span>
+
+        <h3>
+          Development
+        </h3>
+
+        <p>
+          Responsive, accessible and lightweight websites
+          that feel great on every device.
+        </p>
+
+      </div>
+
+      <span class="card-arrow">
+        ↗
+      </span>
+
+    </article>
+
+
+    <article class="service-card purple reveal">
+
+      <div class="icon">
+        ◌
+      </div>
+
+      <div>
+
+        <span class="number">
+          03
+        </span>
+
+        <h3>
+          Growth & SEO
+        </h3>
+
+        <p>
+          Performance-focused foundations that help
+          your website get discovered and convert.
+        </p>
+
+      </div>
+
+      <span class="card-arrow">
+        ↗
+      </span>
+
+    </article>
+
+  </div>
 
 </section>
 
-<section id="services" class="section gray">
 
-<h2>Our Services</h2>
+<!-- MARQUEE -->
 
-<div class="cards">
+<section class="marquee">
 
-<div class="card">
-<h3>Web Design</h3>
-<p>Beautiful UI/UX with modern layouts.</p>
-</div>
+  <div>
+    DESIGN
+    <span>✦</span>
+    DEVELOP
+    <span>✦</span>
+    CREATE
+    <span>✦</span>
+    LAUNCH
+    <span>✦</span>
 
-<div class="card">
-<h3>Development</h3>
-<p>Fast, responsive and scalable websites.</p>
-</div>
+    DESIGN
+    <span>✦</span>
+    DEVELOP
+    <span>✦</span>
+    CREATE
+    <span>✦</span>
+    LAUNCH
+    <span>✦</span>
+  </div>
 
-<div class="card">
-<h3>SEO</h3>
-<p>Optimized websites for better search ranking.</p>
-</div>
+</section>
 
-</div>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section contact">
+
+  <div class="contact-box">
+
+    <div>
+
+      <div class="section-label">
+        03 / LET'S CONNECT
+      </div>
+
+      <h2>
+        Have an idea?<br>
+        <span class="gradient-text">
+          Let's make it real.
+        </span>
+      </h2>
+
+      <p>
+        Tell us a little about your project.
+        We'll turn the conversation into the next big thing.
+      </p>
+
+    </div>
+
+
+    <form id="contactForm">
+
+      <label>
+
+        <span>Your name</span>
+
+        <input
+          type="text"
+          placeholder="John Doe"
+          required
+        >
+
+      </label>
+
+
+      <label>
+
+        <span>Email address</span>
+
+        <input
+          type="email"
+          placeholder="john@example.com"
+          required
+        >
+
+      </label>
+
+
+      <label>
+
+        <span>Your message</span>
+
+        <textarea
+          placeholder="Tell us about your idea..."
+          required
+        ></textarea>
+
+      </label>
+
+
+      <button class="primary-btn" type="submit">
+
+        Send Message
+
+        <span>↗</span>
+
+      </button>
+
+    </form>
+
+  </div>
 
 </section>
 
-<section id="contact" class="section">
+</main>
 
-<h2>Contact Us</h2>
 
-<form id="contactForm">
-
-<input type="text" placeholder="Your Name" required>
-
-<input type="email" placeholder="Email" required>
-
-<textarea placeholder="Message"></textarea>
-
-<button type="submit">Send Message</button>
-
-</form>
-
-</section>
+<!-- FOOTER -->
 
 <footer>
 
-<p>© 2026 TechSite. All Rights Reserved.</p>
+  <div class="footer-top">
+
+    <a class="logo" href="#home">
+      <span>✦</span>
+      TechSite
+    </a>
+
+    <p>
+      Building bright ideas for the digital world.
+    </p>
+
+    <a href="#home" class="back-top">
+      Back to top ↑
+    </a>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <span>
+      © 2026 TechSite. All rights reserved.
+    </span>
+
+    <span>
+      Made with curiosity & caffeine ☕
+    </span>
+
+  </div>
 
 </footer>
+
 
 <script src="script.js"></script>
 
